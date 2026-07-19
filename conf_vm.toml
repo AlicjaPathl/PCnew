@@ -1,0 +1,6 @@
+# Konfiguracja Maszyny Wirtualnej (VM)
+
+[vm]
+ram_size = 65536          # Rozmiar pamięci RAM w bajtach
+sp_start = 65536          # Początkowy adres wskaźnika stosu (SP)
+boot_string_addr = 61440  # Adres RAM dla wskaźnika bootloadera (0xF000), przeniesiony wysoko w celu uniknięcia nadpisywania kodu dużych programów

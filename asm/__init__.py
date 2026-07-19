@@ -1,0 +1,11 @@
+from asm.jmp import compile as jmp_compile
+from asm.mov import compile as mov_compile
+from asm.syscall import compile as syscall_compile
+from asm.store import compile as store_compile
+from asm.add import compile as add_compile
+from asm.cmp import compile as cmp_compile
+from asm.delay import compile as delay_compile
+from asm.jz import compile as jz_compile
+from asm.jnz import compile as jnz_compile
+from asm.jl import compile as jl_compile
+from asm.load import compile as load_compile

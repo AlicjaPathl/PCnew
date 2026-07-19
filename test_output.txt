@@ -1,0 +1,2 @@
+Hello from VM fileio!
+Line 2 of test.
